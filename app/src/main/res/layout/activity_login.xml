@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text="HELLO THERE, WELCOME BACK!"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#0A2EF8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:transitionName="welcome"
+        app:fontFamily="serif"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/slogan_name"
+        android:layout_width="317dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="1dp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="Sign in to continue"
+        android:textAlignment="center"
+        android:textColor="#484A49"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/username"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:focusableInTouchMode="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:inputType="textPersonName" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/password"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="Forgot Password"
+            android:layout_gravity="right"
+            android:elevation="0dp"
+            tools:ignore="HardcodedText"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="go"
+            android:background="#000"
+            android:textColor="#fff"
+            android:elevation="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="New User? Sign Up"
+            android:background="#ffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "940184951904",
+    "project_id": "image-organiser-app",
+    "storage_bucket": "image-organiser-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940184951904:android:7beea3b2c31a38016e3705",
+        "android_client_info": {
+          "package_name": "com.example.imageorganiserapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940184951904-rkju3vrrvdv0f20qh33c68ikvicdaa4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMQqk_43nodYtGfhFOxsLQuyQTnM0VDKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940184951904-rkju3vrrvdv0f20qh33c68ikvicdaa4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
